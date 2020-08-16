@@ -1,0 +1,216 @@
+
+.menu{
+	background: #3EEEE6;
+	text-align: center;
+	border-radius: 15px;
+	border: 2px solid;
+	box-shadow: 2px 3px 3px;
+}
+a{
+	font-family: 'Stalinist One', cursive;	
+	color: #000;
+	border-bottom: 2px solid #000;
+	margin: 5px;
+	display: inline-block;
+	font-size: 11px;
+	text-decoration: none;
+	transition:  0.3s;
+	background: #357EC3;
+	border-radius: 2px;
+	padding: 5px 10px;
+}
+a:hover{
+	transform: translateY(-10px);
+}
+body{
+	background: #4f27a4;
+}
+.banner{
+	background: url("https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_Minecraft_image1600w.jpg");
+	text-align: center;
+	overflow: hidden;
+	margin: 30px;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 150px, 0px 5px 3px #ccc;
+	background-position: center 34%;
+	background-attachment: fixed;
+}
+.banner h2{
+	display: block;
+	width: 400px;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+h1,h2{
+	text-align: center;
+	background: rgba(255,255,255,0.60);
+	display: inline-block;
+	/*1 верх 2 влево права 3низ*/
+	margin: 10px 30% 0px;
+	border-radius: 10px;
+	padding: 0px 5px;
+	box-shadow: 2px 2px 2px;
+}
+.games{
+	background: url("https://www.ixbt.com/img/n1/news/2020/5/1/02ab2825469425b9_1920xH_large.jpg");
+	text-align: center;
+	box-shadow: inset 0px 0px 150px, 0px 5px 3px #ccc;
+	border-radius: 10px;
+	margin: 30px;
+	background-position: center 10%;
+	background-attachment: fixed;
+}
+p{
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+}
+.games a:not(.game){
+	background: #56DF9F;
+}
+.game img{
+	width: 120px;
+	border-radius: 60px;
+
+}
+.game{
+	background: none;
+	border: none;
+}
+.contakt{
+	background: url("https://million-wallpapers.ru/wallpapers/4/53/554945965248368/crysis-3.jpg");
+	text-align: center;
+	margin: 30px;
+	border-radius: 10px;
+	box-shadow:inset 0px 0px 180px, 0px 5px 3px #fff;
+	background-position: center 10%;
+	overflow: hidden;
+}
+.contact img{
+	width: 100px;
+	border-radius: 40px;
+}
+.contakt a:not(.contact){
+	background: none;
+}
+.contact{
+	background: none;
+	border: none;
+	vertical-align: top;
+}
+h3{
+	color: #fff;
+	font-size: 20px;
+	text-shadow: 1px 2px 4px rgba(0,0,0,0.5)
+}
+.contact h2{
+	text-align: center;
+	margin: 10px;
+}
+.banner a{
+	margin: 20px auto;
+	display: block;
+	width: 200px;
+}
+.team{
+	background: url("https://static.tildacdn.com/tild3334-3461-4765-a263-363639623363/office.jpg");
+	border-radius: 10px;
+	margin: 30px;
+	font-size: 0px;
+	background-position: center 85%;
+	background-attachment: fixed;
+	box-shadow: inset 0px 0px 180px, 0px 5px 3px #fff;
+	overflow: hidden;
+}
+.team img{
+	width: 150px;
+	border-radius: 10px;
+}
+p{
+	font-size: 12px;
+	padding: 10px;
+	font-family: 'Stalinist One', cursive;	
+	text-shadow: 2px 2px 4px rgba(0,0,0,1);
+}
+.team2{
+	width: 300px;
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	margin: 0px;
+	border-right: 2px solid #000;
+	box-sizing: border-box;
+	padding-top: 80px;
+
+
+}
+.team2:last-of-type{
+	border: none;
+}
+.team2 h2{
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Stalinist One', cursive;	
+	margin: 20px auto; 
+	display: block;
+	width: 280px;
+	max-width: 80%;
+
+}
+.team>h2{
+	font-size: 24px;
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+}
+.feedback{
+	text-align: center;
+	padding: 30px;
+
+}
+.feedback input{
+	display: block;
+	margin: 3px auto;
+    width: 250px;
+    line-height: 20px;
+    font-family: 'Caveat', cursive;
+}
+.feedback textarea{
+	width: 250px;
+	height: 100px;
+	resize: none;
+	font-family: 'Caveat', cursive;
+	display: block;
+	margin: 3px auto;
+}
+html{
+	scroll-behavior: smooth;
+}
+@media (max-width: 760px){
+	body{
+		background: #a299b1;
+	}
+	.menu a{
+		display: block;
+		line-height: 40px;
+	}
+	.banner h2{
+		margin: 5px auto 0px;
+		font-size: 18px;
+	}
+	.games a{
+		height: 25px;
+	}
+	.contakt h2{
+		font-size: 15px;
+	}
+	.team2{
+		width: auto;
+	}
+}
+
+
+
+
